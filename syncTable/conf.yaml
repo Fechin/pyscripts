@@ -1,0 +1,25 @@
+# 待同步服务器连接
+origin-server:
+    host: "192.168.20.130"
+    port: "3306"
+    db: "ivmall"
+    user: "orbit_java"
+    pawd: "orbit_java"
+# 同步目标服务器连接
+dest-server:
+    host: "192.168.20.130"
+    port: "3306"
+    db: "ivmall"
+    user: "orbit_java"
+    pawd: "orbit_java"
+
+# 需同步的表
+table-name: "platform_configuration"
+
+# 同步过滤条件
+query-params:
+    uniqueKey:
+      - "wxb8f070380562feb3"
+      - "wx45e809d7a7d19462"
+      - "wx6b71680ea5f2f0eb"
+      - "wx8e7858207ae1476e"
