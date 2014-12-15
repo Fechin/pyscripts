@@ -1,0 +1,27 @@
+# 查询服务器
+select-server:
+    host: "192.168.20.130"
+    port: "3306"
+    db  : "mnj_heartbeat"
+    user: "orbit_java"
+    pawd: "orbit_java"
+
+# 更新服务器
+update-server:
+    host: "192.168.20.130"
+    port: "3306"
+    db  : "ivmall"
+    user: "orbit_java"
+    pawd: "orbit_java"
+
+# 待处理xls数据
+xls-name: "file.xls"
+# 正确列的rownum
+xls-col-right: 0
+# 错误列的rownum
+xls-col-error: 1
+
+# 表名
+table-name : "question"
+# 字段名
+column-name: "contentId"
