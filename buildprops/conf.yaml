@@ -1,0 +1,9 @@
+# 待处理xls数据
+xls-name     : "file.xls"
+
+# keys同时对应xls-col-val
+xls-col-keys : [0,2,3]
+xls-col-val  : 1
+
+# 生成的文件名
+file-name    : "config.properties"
