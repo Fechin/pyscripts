@@ -45,7 +45,7 @@ def deal_title( title ):
     '''
     去除字符!',./\?-()*&:;？（），和空格
     '''
-    title = title.lower()
+    title = str(title.lower())
     _p = re.compile( r"(!|'|,|\.|/|\\|\?|-|\(|\)|\*|&|:|;|？|（|）|，)| " )
     title = _p.sub( "", title )
     return title
