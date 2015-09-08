@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # vim:fenc=utf-8
 #
-# Copyright © 2014 Fechin <lihuoqingfly@163.com>
+# Copyright © 2014 Fechin <mr.fechin@gmail.com>
 #
 # Distributed under terms of the MIT license.
 
