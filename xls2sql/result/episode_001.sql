@@ -1,0 +1,16 @@
+INSERT INTO episode(id, title) VALUES('苹果小人国','星期天的大苹果','3','3','1','3','2','坏人抢走大苹果，巴弟带领小朋友勇敢夺回。','团结、勇敢','2','3','1');
+UPDATE episode SET id = '星期天的大苹果', title = '3' WHERE id = 1;
+INSERT INTO episode(id, title) VALUES('苹果小人国','认识大自然','3','3','1','3','2','大自然亲临之旅，蓝老师却意外跌落悬崖，小朋友机智解救。','勇敢、机智、合作','3','3','1');
+UPDATE episode SET id = '认识大自然', title = '3' WHERE id = 2;
+INSERT INTO episode(id, title) VALUES('苹果小人国','大雾中的怪兽','3','3','1','3','2','村里来了大怪兽，大家都很害怕，到底是什么在捣鬼呢？','勇敢','3','3','1');
+UPDATE episode SET id = '大雾中的怪兽', title = '3' WHERE id = 3;
+INSERT INTO episode(id, title) VALUES('苹果小人国','去妮妮家过夜','3','3','1','3','2','小公主艾拉去朋友家过夜，不习惯的她半夜想回家，热心的朋友最终帮她渡过难关。','友情、热心','1','3','1');
+UPDATE episode SET id = '去妮妮家过夜', title = '3' WHERE id = 4;
+INSERT INTO episode(id, title) VALUES('苹果小人国','巴弟的生日','3','3','1','3','2','巴弟收到一份不喜欢的生日礼物，被他巧妙的处理掉。','礼物、巧妙','1','3','1');
+UPDATE episode SET id = '巴弟的生日', title = '3' WHERE id = 5;
+INSERT INTO episode(id, title) VALUES('苹果小人国','国王提琴手','3','3','1','3','2','国王拉的琴声很刺耳，小朋友们巧妙化解尴尬。','聪明、巧妙','1','3','1');
+UPDATE episode SET id = '国王提琴手', title = '3' WHERE id = 6;
+INSERT INTO episode(id, title) VALUES('苹果小人国','微笑的苹果面包','3','3','1','3','2','为了减轻父母的工作，奇奇和小朋友们帮父母做蛋糕。','孝心、微笑','1','3','1','1');
+UPDATE episode SET id = '微笑的苹果面包', title = '3' WHERE id = 7;
+INSERT INTO episode(id, title) VALUES('苹果小人国','超级碰碰车','3','3','1','3','2','暴雨过后的村庄凌乱不堪，发明先生的神奇道具把村庄清理得超级干净，包括破旧的碰碰车。','科学、努力','3','3','1','1');
+UPDATE episode SET id = '超级碰碰车', title = '3' WHERE id = 8;
