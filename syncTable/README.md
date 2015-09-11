@@ -1,8 +1,8 @@
 ### 使用说明
 ------
-*该脚本实现跨服务器同步单表数据，可以配置query-params进行过滤，如果query-params为空，将完整同步表的所有数据，这个脚本采用[Yaml](http://www.yaml.org/)配置风格，所以需要安装Yaml for python 模块支持，请切换到root权限进行安装：*
+*该脚本实现跨服务器同步单表数据，可以配置query-params进行过滤，如果query-params为空，将完整同步表的所有数据，这个脚本采用[Yaml](http://www.yml.org/)配置风格，所以需要安装Yaml for python 模块支持，请切换到root权限进行安装：*
 
-> wget http://pyyaml.org/download/pyyaml/PyYAML-3.11.tar.gz
+> wget http://p.yml.org/download/p.yml/PyYAML-3.11.tar.gz
 
 > tar -zxvf PyYAML-3.11.tar.gz 
 
@@ -19,7 +19,7 @@
 
 ### 配置说明
 ------
-``` yaml
+```.yml
 # 待同步服务器连接
 origin-server:
     host: "192.168.20.130"

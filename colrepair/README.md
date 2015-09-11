@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ### 配置说明
 ------
-``` yaml
+```yml
 # 查询服务器
 select-server:
     host: "192.168.20.130"

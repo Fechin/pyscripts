@@ -16,7 +16,7 @@ def conf():
     '''
     加载配置文件
     '''
-    f = open(sys.path[0] + '/conf.yaml')
+    f = open(sys.path[0] + '/conf.yml')
     result = load(f)
     f.close()
     return result

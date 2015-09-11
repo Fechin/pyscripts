@@ -24,7 +24,7 @@ def _path( filename ):
     '''
     return sys.path[0] + '/' + filename
 
-def read_config( filename = 'conf.yaml' ):
+def read_config( filename = 'conf.yml' ):
     ''' 
     加载配置文件
     '''

@@ -22,7 +22,7 @@ import re
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-def load_config(filepath = "/conf.yaml"):
+def load_config(filepath = "/conf.yml"):
     """
     加载配置文件
     """

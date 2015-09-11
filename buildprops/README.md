@@ -1,7 +1,7 @@
 ### 键值对生成脚本
 
 ------
-*根据`xls`文档及`conf.yaml`文件配置的键/值对应的列，生成`config.properties`配置文件，内容以键值对(Key-Value)存储，生成效果如下：*
+*根据`xls`文档及`conf.yml`文件配置的键/值对应的列，生成`config.properties`配置文件，内容以键值对(Key-Value)存储，生成效果如下：*
 
 ``` 
 key1=value1
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### 配置说明
 ------
-``` yaml
+```.yml
 # 待处理xls数据
 xls-name     : "file.xls"
 

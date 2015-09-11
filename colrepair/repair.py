@@ -13,7 +13,7 @@
 from yaml import load
 import sys,time, MySQLdb, xlrd
 
-def load_config( filepath = '/conf.yaml' ):
+def load_config( filepath = '/conf.yml' ):
     '''
     加载配置文件
     '''
