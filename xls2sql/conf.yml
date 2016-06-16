@@ -17,6 +17,6 @@ validrow: 2
 #       $n: 美元符号和下标组合，取列的特定下标的值
 #       +n: 加号和数字组合，以n+1的方式进行填充
 sql-templates: 
-    - "INSERT INTO yuan_pay.settlement_org(userId, income, year, month, status, createAt, updateAt) VALUES($1, $2, 2016, 5, 1, now(), now());"
-    # - "UPDATE episode SET id = $0, title = $1 WHERE id = +1;"
+    - "INSERT INTO yuan_pay.settlement_org(userId, income, year, month, status, createAt, updateAt) VALUES($1, -$2, 2016, 5, 1, now(), now());"
+    - "UPDATE yuan_user.`user` SET `income` = income - $2 WHERE `id` = $1;"
 

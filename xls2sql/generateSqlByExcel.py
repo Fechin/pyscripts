@@ -95,7 +95,7 @@ def replacement(row, increase, toint, matched):
             col = row[int(num) - 1]
             if toint and type(col) is FloatType:
                 col = int(col)
-            result = "'%s'" %col
+            result = "%s" %col
         elif first == "+":
             result = int(num) + increase;
         return str(result);
