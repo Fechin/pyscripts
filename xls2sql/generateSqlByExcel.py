@@ -92,7 +92,7 @@ def replacement(row, increase, toint, matched):
                     result += "'%s'," %str(item)
             result = result[:-1]
         elif first == "$":
-            col = row[int(num) + 1]
+            col = row[int(num) - 1]
             if toint and type(col) is FloatType:
                 col = int(col)
             result = "'%s'" %col
